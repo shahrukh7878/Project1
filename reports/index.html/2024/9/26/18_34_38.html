@@ -1,0 +1,1657 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>TestResult</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Web Automation Results</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 26, 2024 06:34:38 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case 6</p>
+            <p class="text-sm">
+              <span>6:34:41 PM</span> / <span>00:02:21:886</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test Case 6</h5>
+<span class='badge badge-success'>09.26.2024 6:34:41 PM</span>
+<span class='badge badge-danger'>09.26.2024 6:37:03 PM</span>
+<span class='badge badge-default'>00:02:21:886</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">MyAdmin Portal</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:003</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Navigate Login Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:34:44 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@5b852b49pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_43.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_43.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:008</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Navigate  After Login Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:34:54 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@53a7a60cpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_54.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_54.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>Navigate  Products Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:34:56 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@332bcab0pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_56.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_56.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>Navigate  Sic Segments Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:34:58 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@6e3eb0cdpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_58.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_34_58.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Navigate Brokers Portal Access Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:04 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@3d0cac1fpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_3.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_3.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>Navigate  Brokers Accounts Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:07 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@11d045b4pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_7.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_7.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>Navigate  Brokers Product Access Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:11 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@4d157493pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_11.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_11.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="9"><span>Navigate  Reapplication Criteria Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:13 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@5df63359pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_13.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_13.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>Navigate  Finance Providers Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:16 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@4c19d42epass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_16.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_16.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>Navigate  Card Providers Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:18 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@3ad8717dpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_18.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_18.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>Navigate  No Potential Lenders Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:20 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@69a024a0pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_20.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_20.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>Navigate  Base Rate Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:22 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@184823edpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_22.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_22.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>Navigate Banking Data Classification Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:25 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@5d124d29pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_24.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_24.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>Navigate Risk Check Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:27 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@6424e613pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_27.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_27.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>Navigate Broker Arrangement Fee Criteria Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:29 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@2bec068bpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_29.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_29.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="17"><span>Navigate SIC Codes Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:30 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@2017f6e6pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_30.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_30.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>Navigate Collection Admin Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:35:32 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@1537e43pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_32.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_35_32.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="19"><span>Failed Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:37:03 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@1ec88aa1failorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(text(),'infinty')] (tried for 60 second(s) with 500 milliseconds interval)
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_3.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_3.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Case 6</p>
+            <p class="text-sm">
+              <span>6:37:05 PM</span> / <span>00:00:50:137</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Case 6</h5>
+<span class='badge badge-success'>09.26.2024 6:37:05 PM</span>
+<span class='badge badge-danger'>09.26.2024 6:37:55 PM</span>
+<span class='badge badge-default'>00:00:50:137</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">MyAdmin Portal</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="21"><span>Navigate Login Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:07 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@554566a8pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_6.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_6.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>Navigate  After Login Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:15 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@25de8898pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_15.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_15.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="23"><span>Navigate  Products Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:17 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@27afbf14pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_17.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_17.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:001</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="24"><span>Navigate  Sic Segments Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:19 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@3ad847f8pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_19.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_19.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="25"><span>Navigate Brokers Portal Access Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:24 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@6b126187pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_24.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_24.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="26"><span>Navigate  Brokers Accounts Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:28 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@260d48f5pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_28.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_28.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="27"><span>Navigate  Brokers Product Access Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:32 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@386e9fd8pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_32.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_32.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>Navigate  Reapplication Criteria Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:34 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@401ec794pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_34.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_34.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="29"><span>Navigate  Finance Providers Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:36 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@2804b13fpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_36.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_36.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="30"><span>Navigate  Card Providers Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:39 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@1328f482pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_38.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_38.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="31"><span>Navigate  No Potential Lenders Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:40 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@37c87fccpass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_40.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_40.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:008</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="32"><span>Navigate  Base Rate Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:42 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@a1cb94pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_42.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_42.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:003</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="33"><span>Navigate Banking Data Classification Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:44 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@36511772pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_44.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_44.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="34"><span>Navigate Risk Check Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:46 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@87220f1pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_46.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_46.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="35"><span>Navigate Broker Arrangement Fee Criteria Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:48 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@38c55a8apass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_48.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_48.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="36"><span>Navigate SIC Codes Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:50 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@312819aepass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_49.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_49.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="37"><span>Navigate Collection Admin Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:52 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@23933031pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_52.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_52.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="38"><span>Navigate Underwriters Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:53 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@4db568e1pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_53.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_53.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li><span><i class="fa fa-paperclip"></i></span></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="39"><span>Navigate After Logout Page </span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:37:55 PM</td>
+        <td>
+          com.aventstack.extentreports.ExtentTest@3340ce58pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_55.png' src="C:\Users\ShahrukhAata_l4\Project\Test\Reports and Screenshots\2024\9\26/18_37_55.png">
+    
+    </div></div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 26, 2024 06:34:38 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 26, 2024 06:37:56 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>36</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>36</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Case 6":141.886,"Test Case 6":50.137
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 36,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 36,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

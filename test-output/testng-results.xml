@@ -1,21 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T19:54:42 IST" name="Default suite" finished-at="2024-09-19T19:54:42 IST" duration-ms="12">
+  <suite started-at="2024-09-27T15:42:02 IST" name="Command line suite" finished-at="2024-09-27T15:53:58 IST" duration-ms="715188">
     <groups>
     </groups>
-    <test started-at="2024-09-19T19:54:42 IST" name="Default test" finished-at="2024-09-19T19:54:42 IST" duration-ms="12">
+    <test started-at="2024-09-27T15:42:02 IST" name="Command line test" finished-at="2024-09-27T15:53:58 IST" duration-ms="715188">
       <class name="com.nucleus.qa.testcases.CoreSystemTesting">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3af9aa66]" started-at="2024-09-19T19:54:42 IST" name="start" finished-at="2024-09-19T19:54:42 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:02 IST" name="start" finished-at="2024-09-27T15:42:02 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="Exit()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3af9aa66]" started-at="2024-09-19T19:54:42 IST" name="Exit" finished-at="2024-09-19T19:54:47 IST" duration-ms="5514" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:02 IST" name="setUp" finished-at="2024-09-27T15:42:05 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase1()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:05 IST" name="TestCase1" finished-at="2024-09-27T15:42:51 IST" duration-ms="46504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:51 IST" name="tearDown" finished-at="2024-09-27T15:42:52 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:52 IST" name="setUp" finished-at="2024-09-27T15:42:53 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase10()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:42:53 IST" name="TestCase10" finished-at="2024-09-27T15:44:16 IST" duration-ms="82470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:44:16 IST" name="tearDown" finished-at="2024-09-27T15:44:16 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:44:16 IST" name="setUp" finished-at="2024-09-27T15:44:18 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase11()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:44:18 IST" name="TestCase11" finished-at="2024-09-27T15:45:00 IST" duration-ms="42343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase11 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:00 IST" name="tearDown" finished-at="2024-09-27T15:45:00 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:00 IST" name="setUp" finished-at="2024-09-27T15:45:02 IST" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase12()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:02 IST" name="TestCase12" finished-at="2024-09-27T15:45:40 IST" duration-ms="38143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase12 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:40 IST" name="tearDown" finished-at="2024-09-27T15:45:40 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:40 IST" name="setUp" finished-at="2024-09-27T15:45:41 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase2()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:45:41 IST" name="TestCase2" finished-at="2024-09-27T15:46:02 IST" duration-ms="20164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:46:02 IST" name="tearDown" finished-at="2024-09-27T15:46:02 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:46:02 IST" name="setUp" finished-at="2024-09-27T15:46:03 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase3()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:46:03 IST" name="TestCase3" finished-at="2024-09-27T15:47:27 IST" duration-ms="83719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:47:27 IST" name="tearDown" finished-at="2024-09-27T15:47:28 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:47:28 IST" name="setUp" finished-at="2024-09-27T15:47:29 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase4()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:47:29 IST" name="TestCase4" finished-at="2024-09-27T15:48:27 IST" duration-ms="57689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:48:27 IST" name="tearDown" finished-at="2024-09-27T15:48:27 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:48:27 IST" name="setUp" finished-at="2024-09-27T15:48:28 IST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase5()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:48:28 IST" name="TestCase5" finished-at="2024-09-27T15:49:34 IST" duration-ms="65739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:49:34 IST" name="tearDown" finished-at="2024-09-27T15:49:35 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:49:35 IST" name="setUp" finished-at="2024-09-27T15:49:36 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase6()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:49:36 IST" name="TestCase6" finished-at="2024-09-27T15:50:31 IST" duration-ms="54539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:50:31 IST" name="tearDown" finished-at="2024-09-27T15:50:31 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:50:31 IST" name="setUp" finished-at="2024-09-27T15:50:32 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase7()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:50:32 IST" name="TestCase7" finished-at="2024-09-27T15:51:34 IST" duration-ms="61985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:51:34 IST" name="tearDown" finished-at="2024-09-27T15:51:35 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:51:35 IST" name="setUp" finished-at="2024-09-27T15:51:36 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase8()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:51:36 IST" name="TestCase8" finished-at="2024-09-27T15:52:36 IST" duration-ms="60224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:52:36 IST" name="tearDown" finished-at="2024-09-27T15:52:37 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:52:37 IST" name="setUp" finished-at="2024-09-27T15:52:38 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCase9()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:52:38 IST" name="TestCase9" finished-at="2024-09-27T15:53:57 IST" duration-ms="79243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:53:57 IST" name="tearDown" finished-at="2024-09-27T15:53:58 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Exit()[pri:0, instance:com.nucleus.qa.testcases.CoreSystemTesting@3bd7f8dc]" started-at="2024-09-27T15:53:58 IST" name="Exit" finished-at="2024-09-27T15:53:58 IST" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Exit -->
       </class> <!-- com.nucleus.qa.testcases.CoreSystemTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

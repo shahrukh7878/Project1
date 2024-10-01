@@ -36,7 +36,7 @@ public class datadriven extends TestBase {
 		int sheets = workbook.getNumberOfSheets();
 		for(int i=0;i<sheets;i++)
 		{
-			if(workbook.getSheetName(i).equalsIgnoreCase("Sheet1"))
+			if(workbook.getSheetName(i).equalsIgnoreCase("Result"))
 			{
 			HSSFSheet sheet=workbook.getSheetAt(i);
 			Iterator<Row> rows =sheet.iterator();  //sheet is collection of rows
@@ -48,7 +48,7 @@ public class datadriven extends TestBase {
 			while(ce.hasNext()) {
 				HSSFCell value=(HSSFCell) ce.next();
 				//if(value.getRow(value).getStringCellValue()
-				if(value.getStringCellValue().equalsIgnoreCase("TestCases")) {
+				if(value.getStringCellValue().equalsIgnoreCase("ApplicationName")) {
 					coloumn=k;
 					System.out.println(value.getStringCellValue());
 					System.out.println(""+coloumn);

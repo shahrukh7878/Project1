@@ -160,7 +160,7 @@ public class TestBase{
 	
 		//ArrayList data=d.getData("");
 		//String url =(String) data.get(1);
-		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//New//Test//driver//edgedriver_win64//msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//Project//Test//driver//edgedriver_win64//msedgedriver.exe");
 		driver = new EdgeDriver();
 		//WebDriver driver = new EdgeDriver();
 		
@@ -180,32 +180,32 @@ public class TestBase{
 	    }*/
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().setScriptTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(90,TimeUnit.SECONDS);
 }
 	public static void initializationoffice() {
 		
 		
-		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//New//Test//driver//edgedriver_win64//msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//Project//Test//driver//edgedriver_win64//msedgedriver.exe");
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(90,TimeUnit.SECONDS);
 		//driver.get(prop.getProperty("url"));
 		driver.get("https://outlook.office.com/mail/");
 		
 	}
 	
-	
+	//"C:\Users\ShahrukhAata_l4\Project\Test\driver\edgedriver_win64\msedgedriver.exe"
 	public static void initializationInfinity() {
-		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//New//Test//driver//edgedriver_win64//msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C://Users//ShahrukhAata_l4//Project//Test//driver//edgedriver_win64//msedgedriver.exe");
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(90,TimeUnit.SECONDS);
 		//driver.get(prop.getProperty("url"));
 		//driver.get("https://myfunding.ncf-sandbox.com/");
 	}
