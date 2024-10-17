@@ -18,7 +18,7 @@ public class Runner extends CoreSystemTesting  {
 				int iHour = sDate.getHours();
 				int iMinut = sDate.getMinutes();
 				if(iHour==12){
-					if(iMinut==02)
+					if(iMinut==10)
 					{
 						System.out.println("5555555555555555555");
 						TestListenerAdapter tla = new TestListenerAdapter();

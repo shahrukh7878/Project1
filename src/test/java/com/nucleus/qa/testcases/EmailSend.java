@@ -110,20 +110,17 @@ import com.nucleus.qa.base.TestBase;
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 			//System.out.println(date.format(formatter));
 			String Date1=date.format(formatter);
-			
-			while(true)
-				
+			while(true)	
 			{
 				Date sDate = new Date();
 				int iHour = sDate.getHours();
 				int iMinut = sDate.getMinutes();
 				int iSeconds = sDate.getSeconds();
-				if(iHour==20){
-					if(iMinut==0)
+				if(iHour==15){
+					if(iMinut==05)
 						//if(iSeconds==30)
 					{
 						System.out.println("5555555555555555555");
-						
 			File file =    new File("C://Users//ShahrukhAata_l4//Project//Test//TestData//TestData.xls");
 			FileInputStream inputStream = new FileInputStream(file);
 			HSSFWorkbook wb=new HSSFWorkbook(inputStream);
@@ -237,6 +234,7 @@ import com.nucleus.qa.base.TestBase;
 							sendEmailWithSqData(Content);
 							
 							Thread.sleep(60000);
+							
 						}		
 					{
 					}
